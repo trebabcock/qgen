@@ -25,7 +25,7 @@ export default new Vuex.Store({
   actions: {
     submitQuery(context, payload) {
       axios
-        .post("http://localhost:5000/api/new", { query: payload })
+        .post("https://qgen.trebabcock.me/api/new", { query: payload })
         .then((response) => {
           if (response.status === 200) {
             context.commit("setResult", response.data);
