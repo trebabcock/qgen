@@ -21,6 +21,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 </style>
 
 <script>
