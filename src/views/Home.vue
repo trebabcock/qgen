@@ -34,13 +34,31 @@
     <p class="mb-2">
       The database contains two tables:
       <span
-        class="font-mono text-sm rounded-lg px-2 py-1 bg-gray-600 text-gray-200"
-        >marketing_qualified_leads</span
+        class="
+          font-mono
+          text-center text-sm
+          rounded-lg
+          px-2
+          py-1
+          bg-gray-600
+          text-gray-200
+        "
       >
+        closed_deals
+      </span>
       and
       <span
-        class="font-mono text-sm rounded-lg px-2 py-1 bg-gray-600 text-gray-200"
-        >closed_deals</span
+        class="
+          font-mono
+          text-center text-sm
+          rounded-lg
+          px-2
+          py-1
+          bg-gray-600
+          text-gray-200
+        "
+      >
+        marketing_qualified_leads </span
       >. These tables have the following columns, respectively:
     </p>
     <div class="overflow-x-auto text-sm py-2">

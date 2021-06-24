@@ -20,6 +20,11 @@ const routes = [
     name: "Time To Close",
     component: () => import("../views/Reports/New.vue"),
   },
+  {
+    path: "/report",
+    name: "Report",
+    component: () => import("../views/Report.vue"),
+  },
 ];
 
 const router = new VueRouter({

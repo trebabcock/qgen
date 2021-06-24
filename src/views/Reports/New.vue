@@ -6,6 +6,7 @@
       run it once.
     </p>
     <textarea
+      id="input_box"
       class="
         block
         font-mono
@@ -18,9 +19,8 @@
         p-2
         bg-gray-600
         text-gray-200
-        mb-4
+        mb-2
       "
-      id="query"
       name="query"
       rows="10"
       cols="80"
@@ -32,32 +32,33 @@
     <div
       class="
         bg-red-400
+        hover:bg-red-300
         text-red-800
         rounded-lg
         px-4
         py-2
-        w-28
-        text-center
         cursor-pointer
-        mb-2
+        max-w-min
       "
+      v-on:click="submitQuery"
     >
-      <p>Run Once</p>
-    </div>
-    <div
-      class="
-        bg-red-400
-        text-red-800
-        rounded-lg
-        px-4
-        py-2
-        w-28
-        text-center
-        cursor-pointer
-        mb-2
-      "
-    >
-      <p>Save</p>
+      <p>Generate</p>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  methods: {
+    submitQuery() {
+      let text = document.getElementById("input_box").value;
+      if (!text) {
+        return;
+      }
+      console.log(text);
+      this.$store.dispatch("submitQuery", text);
+      this.$router.push("/report");
+    },
+  },
+};
+</script>

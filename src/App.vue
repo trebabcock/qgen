@@ -8,9 +8,6 @@
       <div class="antialiased flex-1 overflow-y-auto">
         <div class="flex flex-col">
           <router-view />
-          <div class="bg-gray-800 px-4 py-1 text-gray-500">
-            <p class="text-center text-xs">Copyright &copy; 2021 Tre Babcock</p>
-          </div>
         </div>
       </div>
     </div>

@@ -22,7 +22,6 @@
         md:px-8
         lg:px-8
         px-2
-        text-green-300
         py-4
         flex flex-row
         items-center
@@ -47,7 +46,7 @@
       class="md:block px-4 pb-4 flex flex-1"
     >
       <NavItem route="/reports/time_to_close">Time To Close</NavItem>
-      <NavItem route="/reports/new">New Generator</NavItem>
+      <NavItem route="/reports/new">Custom Generator</NavItem>
     </nav>
   </div>
 </template>
@@ -66,6 +65,11 @@ export default {
   methods: {
     toggleChat() {
       this.chatOpen = !this.chatOpen;
+    },
+  },
+  computed: {
+    generators() {
+      return this.$store.getters.getGenerators();
     },
   },
 };
