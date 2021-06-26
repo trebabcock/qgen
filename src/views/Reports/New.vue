@@ -24,11 +24,7 @@
       name="query"
       rows="10"
       cols="80"
-    >
-        SELECT *
-        FROM closed_deals
-        LIMIT 100;
-    </textarea>
+    >SELECT * FROM closed_deals LIMIT 100;</textarea>
     <div
       class="
         bg-red-400
