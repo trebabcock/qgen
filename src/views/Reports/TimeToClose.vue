@@ -146,7 +146,9 @@
     </div>
     <div class="mb-2">
       <h2 class="text-2xl mb-2">Faster than Average</h2>
-      <p class="mb-2">This will get the deals closed faster than average.</p>
+      <p class="mb-2">
+        This will get the deals that closed faster than average.
+      </p>
       <span
         class="
           block

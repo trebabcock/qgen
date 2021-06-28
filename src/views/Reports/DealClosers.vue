@@ -147,8 +147,8 @@
     <div class="mb-2">
       <h2 class="text-2xl mb-2">To Manufacture or Resell</h2>
       <p class="mb-2">
-        This will get the product categories and their average time-to-close,
-        from fastest to slowest.
+        This will get the business types and their average time-to-close, from
+        fastest to slowest.
       </p>
       <span
         class="
