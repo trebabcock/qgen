@@ -46,7 +46,7 @@
         "
         v-on:click="sendDefault"
       >
-        <p>Generate</p>
+        <p>Run</p>
       </div>
     </div>
     <div class="mb-4">
@@ -94,7 +94,7 @@
         "
         v-on:click="sendDaysToClose"
       >
-        <p>Generate</p>
+        <p>Run</p>
       </div>
     </div>
     <div class="mb-2">
@@ -141,14 +141,12 @@
         "
         v-on:click="sendAverage"
       >
-        <p>Generate</p>
+        <p>Run</p>
       </div>
     </div>
     <div class="mb-2">
       <h2 class="text-2xl mb-2">Faster than Average</h2>
-      <p class="mb-2">
-        This will get the the deals closed faster than average.
-      </p>
+      <p class="mb-2">This will get the deals closed faster than average.</p>
       <span
         class="
           block
@@ -205,7 +203,7 @@
         "
         v-on:click="sendFaster"
       >
-        <p>Generate</p>
+        <p>Run</p>
       </div>
     </div>
   </div>

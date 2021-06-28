@@ -2,9 +2,9 @@
   <div class="bg-gray-700 min-h-screen w-full p-6 text-gray-300">
     <h1 class="text-4xl mb-4">qGen</h1>
     <p class="mb-2">
-      qGen is a report generator for SQL databases. You can use the pre-written
-      generators on the left, or write your own. The sample data on this site
-      was obtained from
+      qGen is a report generator for SQL databases. You can choose a category in
+      the menu, and run a pre-written query, or click Custom Query and write
+      your own. The sample data on this site was obtained from
       <a
         class="text-red-400"
         href="https://www.kaggle.com/olistbr/marketing-funnel-olist"
@@ -93,10 +93,17 @@
         </tr>
       </table>
     </div>
+    <p class="mb-2">
+      In the interest of DevOps simplicity, I'm using SQLite for this project.
+      As you probably know, SQLite is much more limited than other database
+      solutions, such as SQL Server and PostgreSQL. For instance, SQLite does
+      not support the RIGHT JOIN clause, or the FULL OUTER JOIN clause. SQLite
+      is still very usable, though, and will work just fine for a dataset as
+      simple as this.
+    </p>
     <p>
-      More generators will be added with time, as I just started this project a
-      few hours ago (6/22). Check back soon to see updates. You can also see the
-      code for qGen on GitHub. The server is
+      This website was built with Vue.js and TailwindCSS. The server was written
+      in Python. Feel free to browse the code for qGen on GitHub. The server is
       <a class="text-red-400" href="https://github.com/trebabcock/qgen-server"
         >here</a
       >

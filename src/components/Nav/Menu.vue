@@ -46,7 +46,8 @@
       class="md:block px-4 pb-4 flex flex-1"
     >
       <NavItem route="/reports/time_to_close">Time To Close</NavItem>
-      <NavItem route="/reports/new">Custom Generator</NavItem>
+      <NavItem route="/reports/deal_closers">Deal Closers</NavItem>
+      <NavItem route="/reports/new">Custom Query</NavItem>
     </nav>
   </div>
 </template>

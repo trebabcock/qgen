@@ -1,6 +1,6 @@
 <template>
   <div class="p-6 min-h-screen w-full bg-gray-700 text-gray-300">
-    <div class="overflow-x-auto">
+    <div class="overflow-x-auto overflow-y-auto">
       <table class="border-2 border-gray-800 rounded-lg">
         <tbody>
           <tr v-for="arr in result" :key="arr">

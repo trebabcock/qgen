@@ -16,8 +16,13 @@ const routes = [
     component: () => import("../views/Reports/TimeToClose.vue"),
   },
   {
+    path: "/reports/deal_closers",
+    name: "Deal Closers",
+    component: () => import("../views/Reports/DealClosers.vue"),
+  },
+  {
     path: "/reports/new",
-    name: "Time To Close",
+    name: "New Generator",
     component: () => import("../views/Reports/New.vue"),
   },
   {
